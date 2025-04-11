@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+.left img{
+    border-radius: 50%;
+    height: 22rem;
+    width: 22rem;
+    object-fit: cover;
+    box-shadow: 0 5px 18px rgba(218, 208, 208, 0.3);
+    border: 0.3rem solid rgb(196, 196, 178);
+    /* position: relative;
+    
+    top: 1.8rem; */
+}
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 2.4rem;
+    gap: 1rem;
+}
+.main-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 72vh ;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-family: "Special Gothic", sans-serif;
+    width: 60vw;
+}
+.heading{
+    font-size: 3rem ;
+    align-self: center;
+    margin: 0;
+    color: #d8d8df;
+
+}
+.description{
+    background-color: #031b36;
+    border-radius: 2rem 0 0 2rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    width: 50vw ;
+    height: 40vh;
+    justify-self: center;
+    align-self: center;
+    color: rgb(222, 223, 225);
+
+overflow-y: scroll;
+}
+.rightbtn ,.leftbtn{
+    color: rgb(238, 232, 232);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    background-color: #04182f;
+   
+}

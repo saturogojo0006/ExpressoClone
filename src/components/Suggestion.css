@@ -1,0 +1,48 @@
+.suggetion_container{
+    margin-top: 2rem;
+    min-height: 40vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color:#090621;
+    color: white;
+    border-radius: 1rem;
+    color: #d8d8df;
+}
+.sheading{
+  
+    text-decoration: underline;
+}
+.sugBox{
+    min-height: 7rem;
+    width: 30rem;
+    border-radius: 1.2rem;
+}
+.formContainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.formContainer div{
+ display: flex;
+ gap: 0.5rem;
+ 
+
+}
+.formContainer input{
+    box-shadow: 0 3px 10px white;
+border-radius: 2rem;
+height: 1.4rem;
+width: 15rem;
+
+}
+.formContainer button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1.3rem;
+    box-shadow: 0 3px 10px white;
+}

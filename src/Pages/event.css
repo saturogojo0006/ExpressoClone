@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Syne:wght@400..800&display=swap');
+
+
+.micimg{
+    width: 98vw;
+    overflow-x: hidden;
+}
+.overlay-text{
+    font-family: "Roboto Slab", serif;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+    font-weight: 600;
+    font-size: 9rem;
+    opacity: 0;
+    transform: translateY(5rem);
+    animation : fadeslidein 1.7s ease forwards;
+}
+@keyframes fadeslidein{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

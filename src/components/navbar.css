@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+.navbar{
+    height: 4rem;
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aad6ec;
+    box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    background-color:#0A1828;
+  background-image: url('../../public/Assets/nav_ydzrel.svg');
+}
+.item-con{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.link-item{
+    list-style-type:none;
+
+}
+ .logo{
+    padding: 0;
+    margin: 0;
+    width: 5rem;
+    height: 5rem;  
+ }
+ .logoimg{
+    font-weight: 700;
+    width: 6rem;
+    height: 7rem;  
+ }
+ .nav-link:hover{
+ color: blue;
+ }

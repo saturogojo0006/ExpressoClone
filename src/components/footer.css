@@ -1,0 +1,28 @@
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    color: #d8d8df;
+   
+}
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    gap: 0.6rem;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.address{
+    display:flex;
+    
+}
+.address .des{
+    display: flex;
+    align-items: center;
+    width: 24vw;
+   
+}
