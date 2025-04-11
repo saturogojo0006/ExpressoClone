@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Home />
-           <Footer />
+          
     </div>
   },
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Events />
-           <Footer />
+          
     </div>
   },
   {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Team />
-           <Footer />
+         
     </div>
   },
   {
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Literary />
-           <Footer />
+           
     </div>
   },
   {
@@ -48,7 +48,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Art />
-           <Footer />
+           
     </div>
   },
   {
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Alumni />
-           <Footer />
+          
     </div>
   },
   {
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
     element: <div>
            <Navbar />
            <Contact />
-           <Footer />
+           
     </div>
   }
   
