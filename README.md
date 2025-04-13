@@ -1,3 +1,27 @@
+# Open only on laptop  or  in landscape mode if using mobile phone to view.
+# Event Page is currently made therfore route to it only.
+
+
+
+#vercel link
+https://expresso-clone.vercel.app/
+
+
+#Personal Domain 
+https://expresso.anandisawesome.space/
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
