@@ -3,6 +3,7 @@
     justify-content: space-between;
     height: 15vh;
     color: #d8d8df;
+    width: 100vw;
    
 }
 .icons{
@@ -25,4 +26,12 @@
     align-items: center;
     width: 24vw;
    
+}
+@media (max-width:700px) {
+    .bottom{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
 }
