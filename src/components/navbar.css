@@ -21,6 +21,7 @@
     display: flex;
     /* justify-content: s; */
     gap: 1rem;
+    overflow-x: scroll;
    
 }
 .link-item{
