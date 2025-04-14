@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 
 .navbar{
+    width: 100vw;
     height: 4rem;
     font-family: "Syne", sans-serif;
     font-weight: 600;
@@ -12,13 +13,15 @@
     position: sticky;
     top: 0%;
     left: 0%;
+   
     background-color:#0A1828;
   background-image: url('../../public/Assets/nav_ydzrel.svg');
 }
 .item-con{
     display: flex;
-    justify-content: space-around;
-    gap: 2rem;
+    /* justify-content: s; */
+    gap: 1rem;
+   
 }
 .link-item{
     list-style-type:none;
