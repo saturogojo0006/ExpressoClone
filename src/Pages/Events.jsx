@@ -11,8 +11,8 @@ import Footer from '../components/Footer'
 const Events = () => {
   return (
     <div>
- <div className='mic-img' >
-  <img src={img1} alt="ntfound"  className='micimg' />
+ <div className='mic-imgc' >
+  {/* <img src={img1} alt="ntfound"  className='micimg' /> */}
   <p className='overlay-text' >EVENTS</p>
  </div>
 
