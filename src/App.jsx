@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/events',
-    element: <div>
+    element: <div className='event-c'>
            <Navbar />
            <Events />
           
