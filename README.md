@@ -1,5 +1,5 @@
 # Open only on laptop  or  in landscape mode if using mobile phone to view.
-# Event Page is currently made therfore route to it only.
+# Event Page is currently made therefore route to it only.
 
 
 
@@ -10,7 +10,8 @@ https://expresso-clone.vercel.app/
 #Personal Domain 
 https://expresso.anandisawesome.space/
 
-
+#isssue:
+On refreshing the Event page it is showing ERROR 404!
 
 
 
