@@ -17,11 +17,11 @@
 }
 .sugBox{
     min-height: 7rem;
-    width: 30rem;
+    width: 80vw;
     border-radius: 1.2rem;
 }
 .formContainer{
-
+ width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -37,7 +37,7 @@
     box-shadow: 0 3px 10px white;
 border-radius: 2rem;
 height: 1.4rem;
-width: 15rem;
+width: 45vw;
 
 }
 .formContainer button{
