@@ -41,6 +41,7 @@
     align-self: center;
     margin: 0;
     color: #d8d8df;
+ 
 
 }
 .description{
@@ -64,4 +65,19 @@ overflow-y: scroll;
     z-index: 10;
     background-color: #04182f;
    
+}
+@media (max-width: 700px) {
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .description{
+        width: 80vw;
+    }
+    .heading{
+        width: 96vw;
+        text-wrap: wrap;
+    }
 }
